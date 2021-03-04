@@ -1,0 +1,85 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(https://cdn.glitch.com/0b78c79c-11de-4814-aa71-235d690ed554%2Fgane.jpg?v=1614294151532)
+  
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+  font-style: italic;
+  font-size: 50px;
+  color: Indigo;
+  
+}
+.center {
+  margin: auto;
+  width: 50%;
+  
+  padding: 10px;
+}
+button{
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+.hidden {
+  display: none;
+}
+#startBtn{
+  background: lightgreen;
+}
+#stopBtn{
+  background: red;
+}
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+#button1 {
+  background: pink;
+}
+#button1:active, #button1.lit{
+  background-image:Url(https://cdn.glitch.com/0b78c79c-11de-4814-aa71-235d690ed554%2Fred.jpg?v=1614295703647);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#button2 {
+  background: skyblue;
+}
+#button2:active, #button2.lit{
+  background-image:Url(https://cdn.glitch.com/0b78c79c-11de-4814-aa71-235d690ed554%2Fblue.jpg?v=1614295718228);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#button3 {
+    background: lime;
+}
+#button3:active, #button3.lit{
+  background-image:Url(https://cdn.glitch.com/0b78c79c-11de-4814-aa71-235d690ed554%2Fgreen.jpg?v=1614295713428);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#button4 {
+  background: yellow;
+}
+#button4:active, #button4.lit{
+  background-image:Url(https://cdn.glitch.com/0b78c79c-11de-4814-aa71-235d690ed554%2Fyellow.jpg?v=1614295697979);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#button5 {
+  background: violet;
+}
+#button5:active, #button5.lit{
+  background-image:Url(https://cdn.glitch.com/0b78c79c-11de-4814-aa71-235d690ed554%2Findigo.jpg?v=1614295708457);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
